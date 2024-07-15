@@ -1,0 +1,22 @@
+{
+  "name": "simple-api-test",
+  "version": "1.0.0",
+  "description": "simple rest api for testing api gateway",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KongtappV/simple-api-test.git"
+  },
+  "keywords": [
+    "api-gateway"
+  ],
+  "author": "KongtappV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KongtappV/simple-api-test/issues"
+  },
+  "homepage": "https://github.com/KongtappV/simple-api-test#readme"
+}
