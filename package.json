@@ -4,7 +4,9 @@
   "description": "simple rest api for testing api gateway",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.ts",
+    "build": "rm -rf build/ && prettier --write src/ && tsc"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,16 @@
   "bugs": {
     "url": "https://github.com/KongtappV/simple-api-test/issues"
   },
-  "homepage": "https://github.com/KongtappV/simple-api-test#readme"
+  "homepage": "https://github.com/KongtappV/simple-api-test#readme",
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/express": "^4.17.21",
+    "@types/morgan": "^1.9.9",
+    "axios": "^1.7.2",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
 }
